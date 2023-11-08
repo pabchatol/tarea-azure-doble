@@ -22,4 +22,4 @@ jobs:
         PASSWORD: ${{ secrets.PASSWORD }}
       with:
         source: "index.html"
-        target: "/var/www/html/index.html"
+        target: "/var/www/html"
