@@ -12,7 +12,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@production
+    - uses: actions/checkout@master
     - name: copy file via ssh password
       uses: appleboy/scp-action@v0.1.4
       env:
