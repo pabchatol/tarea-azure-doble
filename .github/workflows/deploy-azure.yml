@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: probando
-      run: echo prueba
+      run: echo prueba azure
   
   deploy:
     runs-on: ubuntu-latest
